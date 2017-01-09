@@ -43,7 +43,6 @@ public class TransactionTest {
         byte[] data = null;
 
         Transaction tx = new Transaction(nonce, gasPrice, gasLimit, receiveAddress,value, data);
-        LOG
         tx.sign(key);
 
         tx.getEncodedRaw();
